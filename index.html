@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Movie Search App</h1>
+        <input type="text" id="movies" placeholder=" Search your favourite movies here...">
+        <button onclick="getMovie()"><i class="fa fa-search"></i></button>
+    </header>
+    <br><br>
+    <img id="pic" src="" alt="">
+    <br><br>
+    <div id="name"></div>
+    <div id="date"></div>
+    <div id="overview"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

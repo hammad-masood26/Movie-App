@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+header {
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-left: 420px;
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+i {
+    width: 30px;
+    height: 25px;
+    padding-top: 5px;
+}
+
